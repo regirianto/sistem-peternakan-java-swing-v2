@@ -1,0 +1,15 @@
+# Contoh konfigurasi layanan. Salin ke service.properties lalu isi nilai nyata.
+# service.properties TIDAK boleh dikommit ke repositori.
+
+db.url=jdbc:mysql://localhost:3306/peternakan?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Jakarta&characterEncoding=utf8
+db.user=peternakan
+db.password=ISI_PASSWORD_DI_SINI
+server.port=8765
+attachment.dir=attachments
+backup.dir=backups
+mysqldump.bin=mysqldump
+mysql.bin=mysql
+
+# Isi data contoh otomatis saat aplikasi desktop pertama kali dijalankan pada DB kosong.
+# Set false untuk instalasi produksi.
+demo.auto_seed=true

@@ -1,0 +1,53 @@
+# Build output (NetBeans Ant)
+/build/
+/dist/
+
+# Runtime backups, test database, and local logs
+/.backups/
+/.mysql-test/
+/backups/
+/attachments/
+*.log
+
+# Credentials and local configuration
+/service.properties
+.env
+.env.*
+
+# Generated knowledge-graph cache
+/graft/
+/graphify-out/
+
+# Maven leftovers (jika ada)
+/target/
+*/target/
+
+# Java / JVM artifacts
+*.class
+*.jar.tmp
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+nbproject/private/
+.settings/
+.classpath
+.project
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Dependency jars di src/sistemperternakanv2/lib/ tetap di-commit.
